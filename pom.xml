@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.world</groupId>
-  <artifactId>servlet</artifactId>
+  <artifactId>servlet1</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -18,9 +18,10 @@
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
-      <version>6.0.0</version>
+      <version>6.0.0</version> <!-- Use the version that matches your server -->
       <scope>provided</scope>
     </dependency>
+
 
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
